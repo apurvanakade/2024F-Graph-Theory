@@ -23,7 +23,7 @@ $\iff$
 For all $r \in \mathbb{N}$, the diagonal entries of $A(G)^{2r+1}$ are all 0
 
 ${\color{red} \iff}$ 
-For all $r \in \mathbb{N}$, $\mathrm{tr}(A(G)^{2r+1}) = 0$. This is because all the entries of $A(G)$, and hence $A(G)^{2r+1}$, are non-negative. The only way the trace of $A(G)^{2r+1}$ can be 0 if all the diagonal entries are 0
+For all $r \in \mathbb{N}$, $\mathrm{tr}(A(G)^{2r+1}) = 0$. This is because all the entries of $A(G)$, and hence $A(G)^{2r+1}$, are non-negative. The only way the trace of $A(G)^{2r+1}$ can be 0 is if all the diagonal entries are 0
 
 $\iff$ 
 For all $r \in \mathbb{N}$, 
@@ -32,9 +32,9 @@ as the trace of a matrix is the sum of its eigenvalues and the eigenvalues of $A
 
 Plugging in $r = 0$, gives us $\lambda_1 \ge 0 \ge \lambda_n$.
 
-If $|\lambda_1| > |\lambda_n|$, then for large $r$, 
+If $|\lambda_1| > |\lambda_n|$ then $\lambda_1$ has larger magnitude than all the negative eigenvalues. Therefore, for large $r$,
 $$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_1^{2r + 1} \overset{r \to \infty}{\longrightarrow} \infty.$$
-Similarly, if $|\lambda_1| < |\lambda_n|$, then for large $r$,
+Similarly, if $|\lambda_1| < |\lambda_n|$ then $\lambda_n$ has larger magnitude than all the positive eigenvalues. Therefore, for large $r$,
 $$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_n^{2r + 1} \overset{r \to \infty}{\longrightarrow} -\infty.$$
 Both of these are contradictions. Therefore, $|\lambda_1| = |\lambda_n|$ and $\lambda_1 = -\lambda_n$.
 
