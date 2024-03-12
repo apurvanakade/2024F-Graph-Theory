@@ -6,8 +6,8 @@ date: "2024-03-12 11:09:11"
 
 **Theorem.**
 Let $G$ be a simple graph. 
-Let $\lambda_1 \ge \lambda_2 \ge \cdots \ge \lambda_n$ be the eigenvalues of $G$.
-$G$ is bipartite if and only if for every $1 \le i \le n$, $\lambda_{i} = -\lambda_{n - (i - 1)}$.
+Let $\lambda_1 \ge \lambda_2 \ge \cdots \ge \lambda_n$ be the eigenvalues of the adjacency matrix $A(G)$. 
+Then $G$ is bipartite if and only if for every $1 \le i \le n$, $\lambda_{i} = -\lambda_{n - (i - 1)}$.
 
 *Proof.*
 
