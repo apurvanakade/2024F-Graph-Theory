@@ -2,7 +2,6 @@
 title: "Spectrum of bipartite graphs"
 author: "Apurva Nakade"
 date: "2024-03-12 11:09:11"
-output: html_document
 ---
 
 **Theorem.**
