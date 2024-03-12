@@ -32,10 +32,10 @@ as the trace of a matrix is the sum of its eigenvalues and the eigenvalues of $A
 
 Plugging in $r = 0$, gives us $\lambda_1 \ge 0 \ge \lambda_n$.
 
-If $|\lambda_1| > |\lambda_n|$ then $\lambda_1$ has larger magnitude than all the negative eigenvalues. Therefore, 
-$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} = \lambda_1^{2r + 1} + \mathcal{O}(\lambda_1^{2r + 1}) \overset{r \to \infty}{\longrightarrow} \infty.$$
+If $|\lambda_1| > |\lambda_n|$ then $\lambda_1$ has larger magnitude than all the negative eigenvalues. Therefore, for sufficiently large $r$, 
+$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_1^{2r + 1} \overset{r \to \infty}{\longrightarrow} \infty.$$
 Similarly, if $|\lambda_1| < |\lambda_n|$ then $\lambda_n$ has larger magnitude than all the positive eigenvalues. Therefore, 
-$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} = \lambda_n^{2r + 1} + \mathcal{O}(\lambda_n^{2r + 1}) \overset{r \to \infty}{\longrightarrow} -\infty.$$
+$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_n^{2r + 1} \overset{r \to \infty}{\longrightarrow} -\infty.$$
 Both of these are contradictions. Therefore, $|\lambda_1| = |\lambda_n|$ and $\lambda_1 = -\lambda_n$.
 
 ---
