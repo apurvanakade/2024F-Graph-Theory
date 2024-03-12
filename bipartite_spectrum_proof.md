@@ -11,19 +11,19 @@ Then $G$ is bipartite if and only if for every $1 \le i \le n$, $\lambda_{i} = -
 
 *Proof.*
 
-$G$ is bipartite 
+$G$ is bipartite. 
 
 $\iff$ 
-$G$ does not contain any odd cycles
+$G$ does not contain any odd cycles.
 
 $\iff$ 
-$G$ does not contain any odd closed walks 
+$G$ does not contain any odd closed walks.
 
 $\iff$ 
-For all $r \in \mathbb{N}$, the diagonal entries of $A(G)^{2r+1}$ are all 0
+For all $r \in \mathbb{N}$, the diagonal entries of $A(G)^{2r+1}$ are all 0.
 
 ${\color{red} \iff}$ 
-For all $r \in \mathbb{N}$, $\mathrm{tr}(A(G)^{2r+1}) = 0$. This is because all the entries of $A(G)$, and hence $A(G)^{2r+1}$, are non-negative. The only way the trace of $A(G)^{2r+1}$ can be 0 is if all the diagonal entries are 0
+For all $r \in \mathbb{N}$, $\mathrm{tr}(A(G)^{2r+1}) = 0$. This is because all the entries of $A(G)$, and hence $A(G)^{2r+1}$, are non-negative. The only way the trace of $A(G)^{2r+1}$ can be 0 is if all the diagonal entries are 0.
 
 $\iff$ 
 For all $r \in \mathbb{N}$, 
