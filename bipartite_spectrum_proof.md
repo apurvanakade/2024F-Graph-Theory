@@ -10,7 +10,7 @@ Let $G$ be a simple graph.
 Let $\lambda_1 \ge \lambda_2 \ge \cdots \ge \lambda_n$ be the eigenvalues of $G$.
 $G$ is bipartite if and only if for every $1 \le i \le n$, $\lambda_{i} = -\lambda_{n - (i - 1)}$.
 
-*Proof for $i=1$.*
+*Proof.*
 
 $G$ is bipartite 
 
@@ -28,15 +28,15 @@ For all $r \in \mathbb{N}$, $\mathrm{tr}(A(G)^{2r+1}) = 0$. This is because all 
 
 $\iff$ 
 For all $r \in \mathbb{N}$, 
-$$ \sum \limits_{i = 1}^n \lambda_i^{2r + 1} = 0$$
+$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} = 0$$
 as the trace of a matrix is the sum of its eigenvalues and the eigenvalues of $A(G)^{2r+1}$ are $\lambda_1^{2r+1}, \lambda_2^{2r+1}, \ldots, \lambda_n^{2r+1}$.
 
 Plugging in $r = 0$, gives us $\lambda_1 \ge 0 \ge \lambda_n$.
 
 If $|\lambda_1| > |\lambda_n|$, then for large $r$, 
-$$ \sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_1^{2r + 1} \overset{r \to \infty}{\longrightarrow} \infty.$$
+$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_1^{2r + 1} \overset{r \to \infty}{\longrightarrow} \infty.$$
 Similarly, if $|\lambda_1| < |\lambda_n|$, then for large $r$,
-$$ \sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_n^{2r + 1} \overset{r \to \infty}{\longrightarrow} -\infty.$$
+$$\sum \limits_{i = 1}^n \lambda_i^{2r + 1} \approx \lambda_n^{2r + 1} \overset{r \to \infty}{\longrightarrow} -\infty.$$
 Both of these are contradictions. Therefore, $|\lambda_1| = |\lambda_n|$ and $\lambda_1 = -\lambda_n$.
 
 ---
